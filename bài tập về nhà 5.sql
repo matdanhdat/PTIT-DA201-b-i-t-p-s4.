@@ -1,0 +1,6 @@
+DELETE FROM Employees 
+WHERE EmployeeID = 1;
+SET SQL_SAFE_UPDATES = 0;
+DELETE FROM Employees 
+WHERE Salary < 5000;
+SET SQL_SAFE_UPDATES = 1;
